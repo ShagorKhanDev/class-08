@@ -1,0 +1,55 @@
+/* All Common CSS start */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ui,ol{
+    list-style-type: none;
+}
+a{
+   text-decoration: none; 
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* All Common CSS End */
+
+/* Header part start */
+#headerpart{
+   padding: 50px 0; 
+   background: tomato;
+}
+.headerFlex{
+    display: flex;
+}
+.logo{
+   width: 15%;
+}
+.menu{
+    width: 60%;
+    text-align: center;
+}
+.icon{
+    width: 25%;
+
+}
+.menu ul li{
+display: inline-block;
+}
+.menu ul li a{
+    color: #ffff;
+    padding: 0 30px;
+}
+.icon{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+/* Header part End */
